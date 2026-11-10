@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8FF;
+    font-family: "Geist";
+    width: 100%;
+}
+
+header a {
+    color: #1f1780;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    gap: 24px;
+    padding-right: 50px;
+}
+
+main {
+    /* margin: 0 100px; */
+    height: fit-content;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    width: 100%;
+    background-image: url("assets/tem-rysh-F6-U5fGAOik-unsplash.jpg");
+    background-size: cover;
+    color: #F8F8FF;
+}
+
+.hero-titres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-h h1 {
+    font-family: "Archivo Black";
+    font-size: 59px;
+    margin: 0px;
+}
+
+.hero-h h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Geist", sans-serif;
+    font-size: 43px;
+    font-weight: 400;
+    margin: 0px;
+    padding-bottom: 60px;
+}
+
+.boutons a {
+    margin-top: 35px;
+    font-family: "Geist", sans-serif;
+    font-weight: 400;
+    color: #F8F8FF;
+    margin: 10px;
+    padding: 13px;
+    border-radius: 10px;
+    background-color: #1f1780;
+    text-decoration: none;
+}
