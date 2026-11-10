@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -20,7 +24,6 @@ header a {
 }
 
 main {
-    /* margin: 0 100px; */
     height: fit-content;
 }
 
@@ -30,9 +33,19 @@ main {
     align-items: center;
     height: 110vh;
     width: 100%;
-    background-image: url("assets/tem-rysh-F6-U5fGAOik-unsplash.jpg");
     background-size: cover;
     color: #F8F8FF;
+    position: relative;
+}
+
+.test {
+    height: 110vh;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    filter: blur(2.5px);
+    background-image: url("assets/tem-rysh-F6-U5fGAOik-unsplash.jpg");
+    background-size: cover;
 }
 
 .hero-titres {
@@ -40,10 +53,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }
 
 .hero-h h1 {
-    font-family: "Archivo Black";
+    font-family: "Archivo Black", sans-serif;
     font-size: 59px;
     margin: 0px;
 }
@@ -68,4 +82,44 @@ main {
     border-radius: 10px;
     background-color: #1f1780;
     text-decoration: none;
+}
+
+.promesse {
+    background-color: #F8F8FF;
+    width: 100%;
+    height: 900px;
+}
+
+.promesse-titre h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 65px;
+    color: #1f1780;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 29px;
+}
+
+.promesse-liste {
+    justify-content: space-around;
+    display: flex;
+    margin-top: 60px;
+    font-size: 24px;
+    font-family: "Geist", sans-serif;
+    color: #1D193D;
+}
+
+.promesse-liste img {
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    filter: drop-shadow(30px 20px 5px #535068);
+}
+
+.promesse-liste ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    /* margin-top: 100px; */
 }
