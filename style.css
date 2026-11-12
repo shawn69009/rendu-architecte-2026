@@ -88,6 +88,12 @@ header a {
     text-decoration: none;
 }
 
+.boutons :hover {
+    color: #1f1780;
+    background-color: #F8F8FF;
+    transition: 200ms;
+}
+
 /* PROMESSE */
 
 .promesse {
@@ -268,4 +274,42 @@ header a {
 
 .villeurbanne-text {
     padding-right: 100px;
+}
+
+#avis {
+    background: #D5D1FF;
+    height: 500px;
+}
+
+.avis-titre {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 28px;
+    color: #1D193D;
+    margin: 60px;
+    padding-top: 20px;
+}
+
+.avis-content {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.avis-content article h3 {
+    font-family: "Archivo Black", sans-serif;
+}
+
+.avis-content article {
+    color: #1D193D;
+    font-family: "Geist", sans-serif;
+    width: 400px;
+    background-color: #F8F8FF;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.etoiles {
+    width: 10%;
+    display: flex;
 }
