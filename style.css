@@ -123,3 +123,59 @@ main {
     justify-content: center;
     /* margin-top: 100px; */
 }
+
+.prestations {
+    background: #1D193D;
+    padding: 40px;
+    height: 700px;
+}
+
+.prestations-content {
+    display: flex;
+    margin: 60px;
+    justify-content: center;
+    color: #F8F8FF;
+    gap: 60px;
+}
+
+.prestations-content h2 {
+    font-family: "Archivo Black", sans-serif;
+}
+
+.prestations-content p {
+    font-family: "Geist", sans-serif;
+}
+
+.reno {
+    width: 400px;
+}
+
+.reno-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.amenagement {
+    width: 400px;
+}
+
+.amen-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.deco {
+    width: 400px;
+}
+
+.deco-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.presta-titre {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 28px;
+    color: #F8F8FF;
+    margin: 60px;
+}
