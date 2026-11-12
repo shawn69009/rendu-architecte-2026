@@ -1,6 +1,12 @@
 body {
-    margin: 0;
+    margin: -0px;
 }
+
+main {
+    height: fit-content;
+}
+
+/* HERO */
 
 header {
     display: flex;
@@ -23,9 +29,7 @@ header a {
     padding-right: 50px;
 }
 
-main {
-    height: fit-content;
-}
+
 
 .hero {
     display: flex;
@@ -84,6 +88,8 @@ main {
     text-decoration: none;
 }
 
+/* PROMESSE */
+
 .promesse {
     background-color: #F8F8FF;
     width: 100%;
@@ -121,8 +127,9 @@ main {
     flex-direction: column;
     gap: 25px;
     justify-content: center;
-    /* margin-top: 100px; */
 }
+
+/* PRESTATIONS */
 
 .prestations {
     background: #1D193D;
@@ -178,4 +185,84 @@ main {
     font-size: 28px;
     color: #F8F8FF;
     margin: 60px;
+}
+
+/* PROJETS */
+
+.projets {
+    background: #F8F8FF;
+}
+
+.projets-titre {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 28px;
+    color: #1D193D;
+    margin: 60px;
+}
+
+.projets-content {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projets-content h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 28px;
+    color: #1D193D;
+}
+
+.projets-content p {
+    font-family: "Geist", sans-serif;
+    color: #1D193D;
+}
+
+.projets-content img {
+    border-radius: 15px;
+}
+
+.lyon-6 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.lyon-6 img {
+    width: 40%;
+}
+
+.lyon-6-text {
+    padding-right: 100px;
+}
+
+.annecy {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 100px;
+}
+
+.annecy img {
+    width: 25%;
+}
+
+.annecy-text {
+    padding-left: 100px;
+}
+
+.villeurbanne {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.villeurbanne img {
+    width: 40%;
+}
+
+.villeurbanne-text {
+    padding-right: 100px;
 }
