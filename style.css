@@ -131,7 +131,7 @@ header a {
 
 /* PRESTATIONS */
 
-.prestations {
+#prestations {
     background: #1D193D;
     padding: 40px;
     height: 700px;
@@ -141,7 +141,7 @@ header a {
     display: flex;
     margin: 60px;
     justify-content: center;
-    color: #F8F8FF;
+    color: #ECEAFF;
     gap: 60px;
 }
 
@@ -183,7 +183,7 @@ header a {
 .presta-titre {
     font-family: "Archivo Black", sans-serif;
     font-size: 28px;
-    color: #F8F8FF;
+    color: #ECEAFF;
     margin: 60px;
 }
 
@@ -230,6 +230,7 @@ header a {
 
 .lyon-6 img {
     width: 40%;
+    filter: drop-shadow(30px 20px 5px #535068);
 }
 
 .lyon-6-text {
@@ -246,6 +247,7 @@ header a {
 
 .annecy img {
     width: 25%;
+    filter: drop-shadow(30px 20px 5px #535068);
 }
 
 .annecy-text {
@@ -261,6 +263,7 @@ header a {
 
 .villeurbanne img {
     width: 40%;
+    filter: drop-shadow(30px 20px 5px #535068);
 }
 
 .villeurbanne-text {
